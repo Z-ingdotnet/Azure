@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "kind": {
+            "value": "Default"
+        },
+        "location": {
+            "value": "eastasia"
+        },
+        "workspaceName": {
+            "value": "azure_mlw"
+        },
+        "resourceGroupName": {
+            "value": "AzureMachineLearning"
+        },
+        "sku": {
+            "value": "Basic"
+        },
+        "tagValues": {
+            "value": {}
+        },
+        "keyVaultName": {
+            "value": "azuremlw6913771080"
+        },
+        "storageAccountName": {
+            "value": "azuremlw7902535847"
+        },
+        "appInsightsLogWorkspaceName": {
+            "value": "azuremlw1929375970"
+        },
+        "applicationInsightsName": {
+            "value": "azuremlw0057745151"
+        },
+        "storageAccountOption": {
+            "value": "new"
+        },
+        "storageAccountHnsEnabled": {
+            "value": false
+        },
+        "keyVaultOption": {
+            "value": "new"
+        },
+        "applicationInsightsOption": {
+            "value": "new"
+        },
+        "managedNetwork": {
+            "value": {
+                "isolationMode": "Disabled"
+            }
+        },
+        "identityType": {
+            "value": "systemAssigned"
+        },
+        "publicNetworkAccess": {
+            "value": "Enabled"
+        }
+    }
+}
