@@ -1,0 +1,351 @@
+{
+  "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourcegroups/AzureMachineLearning/providers/Microsoft.MachineLearningServices/workspaces/Azure_mlw",
+    "marketplaceItemId": "Microsoft.MachineLearningServices",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  },
+  "properties": {
+    "templateHash": "15306672109999491746",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "Azure_mlw"
+      },
+      "friendlyName": {
+        "type": "String",
+        "value": "Azure_mlw"
+      },
+      "description": {
+        "type": "String",
+        "value": ""
+      },
+      "kind": {
+        "type": "String",
+        "value": "Default"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastasia"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "appInsightsLogWorkspaceName": {
+        "type": "String",
+        "value": "azuremlw6450172233"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "identityType": {
+        "type": "String",
+        "value": "systemAssigned"
+      },
+      "primaryUserAssignedIdentityResourceGroup": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "primaryUserAssignedIdentityName": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "azuremlw7425216339"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "eastasia"
+      },
+      "storageAccountHnsEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "azuremlw6501771951"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "eastasia"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "azuremlw5356998982"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "eastasia"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "crmcu3iqgfon75q"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "eastasia"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnmcu3iqgfon75q"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "snmcu3iqgfon75q"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "AzureMachineLearning"
+      },
+      "privateEndpointSubscription": {
+        "type": "String",
+        "value": "e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a"
+      },
+      "systemDatastoresAuthMode": {
+        "type": "String",
+        "value": "accessKey"
+      },
+      "managedNetwork": {
+        "type": "Object",
+        "value": {
+          "isolationMode": "Disabled"
+        }
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-04-07T01:48:30.3802383Z",
+    "duration": "PT2M14.1693205S",
+    "correlationId": "ed98cadc-c405-4d4d-bcd2-9cda3bb22853",
+    "providers": [
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "eastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.OperationalInsights",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "eastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "eastasia"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "eastasia"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.OperationalInsights/workspaces/azuremlw6450172233",
+            "resourceType": "Microsoft.OperationalInsights/workspaces",
+            "resourceName": "azuremlw6450172233"
+          }
+        ],
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Insights/components/azuremlw5356998982",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "azuremlw5356998982"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Storage/storageAccounts/azuremlw7425216339",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "azuremlw7425216339"
+          },
+          {
+            "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.KeyVault/vaults/azuremlw6501771951",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "azuremlw6501771951"
+          },
+          {
+            "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Insights/components/azuremlw5356998982",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "azuremlw5356998982"
+          }
+        ],
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.MachineLearningServices/workspaces/Azure_mlw",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "Azure_mlw"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Insights/components/azuremlw5356998982"
+      },
+      {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.KeyVault/vaults/azuremlw6501771951"
+      },
+      {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.MachineLearningServices/workspaces/Azure_mlw"
+      },
+      {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.OperationalInsights/workspaces/azuremlw6450172233"
+      },
+      {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Storage/storageAccounts/azuremlw7425216339"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/DD0257E14E4A241E",
+    "operationId": "DD0257E14E4A241E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:48:30.2310738Z",
+      "duration": "PT37.9287357S",
+      "trackingId": "5fb7ee27-259a-4255-84a1-b4afbc49d16d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.MachineLearningServices/workspaces/Azure_mlw",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "Azure_mlw"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/A8223559E37CDE9A",
+    "operationId": "A8223559E37CDE9A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:47:52.2751228Z",
+      "duration": "PT1M35.1986151S",
+      "trackingId": "7bc3be5e-603c-4614-ab18-64a2ec178efa",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Insights/components/azuremlw5356998982",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "azuremlw5356998982"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/C31A8706E7EA750F",
+    "operationId": "C31A8706E7EA750F",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:47:48.4964036Z",
+      "duration": "PT1M31.4198959S",
+      "trackingId": "7b216378-9055-4bb6-b90c-c77f9c38d5df",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.OperationalInsights/workspaces/azuremlw6450172233",
+        "resourceType": "Microsoft.OperationalInsights/workspaces",
+        "resourceName": "azuremlw6450172233"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/53FC3E73612ABD0A",
+    "operationId": "53FC3E73612ABD0A",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:46:46.5788972Z",
+      "duration": "PT29.5023895S",
+      "trackingId": "cef225aa-8ecb-4893-a28d-4e36fe31be67",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Storage/storageAccounts/azuremlw7425216339",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "azuremlw7425216339"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/DC01959B917B7888",
+    "operationId": "DC01959B917B7888",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:46:37.0692619Z",
+      "duration": "PT19.9927542S",
+      "trackingId": "fe7a058c-8ef3-4988-a7d6-0c964d643f35",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.KeyVault/vaults/azuremlw6501771951",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "azuremlw6501771951"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/e6cef87a-1cf9-4754-b3b4-2e9bcd991e1a/resourceGroups/AzureMachineLearning/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08584891525093322040",
+    "operationId": "08584891525093322040",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-07T01:48:30.362302Z",
+      "duration": "PT38.0599639S",
+      "trackingId": "2c9993fd-f744-454f-a407-65711b0edb64",
+      "statusCode": "OK"
+    }
+  }
+]
