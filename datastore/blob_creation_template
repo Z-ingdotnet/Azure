@@ -1,0 +1,10 @@
+blob_datastore = AzureBlobDatastore(
+name="Azure_ML_Test",
+description="Datastore pointing to a blob container",
+account_name="",
+container_name="data-container",
+credentials=SasTokenCredentials(
+sas_token=""
+),
+)
+ml_client.create_or_update(blob_datastore)
