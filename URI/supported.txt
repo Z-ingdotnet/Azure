@@ -1,0 +1,4 @@
+Local: ./<path>
+Azure Blob Storage: wasbs://<account_name>.blob.core.windows.net/<container_name>/<folder>/<file>
+Azure Data Lake Storage (Gen 2): abfss://<file_system>@<account_name>.dfs.core.windows.net/<folder>/<file>
+Datastore: azureml://datastores/<datastore_name>/paths/<folder>/<file>
